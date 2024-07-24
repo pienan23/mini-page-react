@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  --padding-page: 20px 40px;
+  --police: poppins;
+}
+.logo {
+  padding: var(--padding-page);
+  border-bottom: 2px solid rgb(236, 235, 235);
+}
+/* header*********************************************** */
+.Header .grid-p {
+  padding: var(--padding-page);
+  display: flex;
+  justify-content: end;
+}
+.grid-p img {
+  width: 640px;
+}
+.experience {
+  padding: var(--padding-page);
+}
+.experience h1 {
+  margin-bottom: 16px;
+  font-family: var(--police);
+  font-size: 36px;
+}
+p {
+  font-family: var(--police);
+  font-size: 16px;
+  font-weight: 300;
+  text-wrap: wrap;
+  width: 320px;
+}
+
+.main-section {
+  font-family: var(--police);
+  padding: var(--padding-page);
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  gap: 30px;
+}
+
+/* CARD  **************************************************/
+.Card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 200px;
+}
+.Card h2 {
+  font-weight: normal;
+  font-size: 12px;
+}
+P .bold {
+  font-weight: bold;
+}
+.Card .card--image {
+  width: 200px;
+  height: 18rem;
+}
+.card--star {
+  margin-right: 6px;
+  width: 14px;
+  height: 14px;
+}
+.card--stats,
+p {
+  font-family: var(--police);
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+.card--stats .gray {
+  color: #918e9b;
+}
+.card--bagde {
+  font-size: 12px;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+}

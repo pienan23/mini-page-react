@@ -1,0 +1,21 @@
+@media (max-width: 1200px) {
+  body {
+  }
+
+  .grid-p {
+    display: flex;
+    justify-content: end;
+  }
+  .grid-p img {
+    width: 410px;
+  }
+  .main-section {
+    font-family: var(--police);
+    padding: var(--padding-page);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+  }
+}
